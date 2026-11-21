@@ -1,5 +1,7 @@
 # Dream Advisory
 
-The static site source is in `dist/`. Run `python3 -m http.server 8000 --directory dist` from the repository root, then open `http://localhost:8000`.
+The static site is in `dist/`, with separate HTML, CSS, and JavaScript files. Run `python3 -m http.server 8000 --directory dist` and open http://localhost:8000 for a local preview.
 
-Company details are configured in `dist/content.js`. The public export leaves the founder profiles and contact fields empty.
+Import this repository into Vercel from the repository root. The checked-in `vercel.json` serves `dist/` directly.
+
+Company content is configured in `dist/content.js`. This export includes founder portraits, names, and roles. Bank partners are listed by name. Contact fields are empty.
