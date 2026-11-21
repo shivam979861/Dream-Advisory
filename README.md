@@ -1,5 +1,5 @@
 # Dream Advisory
 
-Static website for Dream Advisory. The HTML, CSS, JavaScript, and assets are in `dist/`.
+The static site source is in `dist/`. Run `python3 -m http.server 8000 --directory dist` from the repository root, then open `http://localhost:8000`.
 
-Run `python3 -m http.server 8000 --directory dist` from the repository root and open `http://localhost:8000` to preview the site.
+Company details are configured in `dist/content.js`. The public export leaves the founder profiles and contact fields empty.
